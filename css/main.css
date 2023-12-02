@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+#flex-container{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-wrap: initial;
+    flex-direction: row;
+    border: 2px solid black;
+}
+div{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    
+}
